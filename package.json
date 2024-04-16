@@ -1,0 +1,18 @@
+{
+  "name": "bitcoin-rune-creator-js",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "big-varuint-js": "^0.2.1",
+    "bitcoinjs-lib": "^6.1.5",
+    "ecpair": "^2.1.0",
+    "runestone-js": "^0.3.0",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
